@@ -1,3 +1,3 @@
-policy "less-than-100-month" {
+policy "1000_Limit" {
   enforcement_level = "hard-mandatory"
 }
