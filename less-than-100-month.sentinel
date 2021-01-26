@@ -11,7 +11,7 @@ limit = decimal.new(1000)
 
 # Call the validation function
 # Warnings will be printed for violations
-cost_validated = tfrun.limit_proposed_monthly_cost(limit)
+cost_validated = tfrun.cost_estimate.proposed_monthly_cost(limit)
 
 # Main rule
 main = rule {
